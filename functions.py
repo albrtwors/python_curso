@@ -11,12 +11,12 @@
 # total_suma = suma_dos_numeros(1,3)
 # print(total_suma)
 
-def suma_dos_numeros(a,b):
-    return a+b
+# def suma_dos_numeros(a,b):
+#     return a+b
 
-num1 = int(input('Ingrese el primer numero: '))
-num2 = int(input('Ingrese el segundo numero: '))
+# num1 = int(input('Ingrese el primer numero: '))
+# num2 = int(input('Ingrese el segundo numero: '))
 
-total_suma = suma_dos_numeros(num1,num2)
+# total_suma = suma_dos_numeros(num1,num2)
 
-print(f'La suma de {num1} y {num2} es: {total_suma}')
+# print(f'La suma de {num1} y {num2} es: {total_suma}')

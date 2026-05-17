@@ -7,6 +7,7 @@ class Personaje:
 
     def saludar(self):
         print(self.nombre)
+        
 
 # Clase hija 
 class Caballero(Personaje):
@@ -15,6 +16,7 @@ class Caballero(Personaje):
         self.armadura = armadura
         # SIEMPRE VA A ESTAR PENDIENTE INICIALIZAR LOS DATOS DEL PADRE
         super().__init__(nombre)
+    
 
 class Militar(Caballero):
     def __init__(self, nombre, espada, armadura):    
